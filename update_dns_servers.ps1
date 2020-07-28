@@ -2,7 +2,7 @@
 #Script_Name： Update_DNS_Server.ps1
 #2020-07-28
 
-$new_dns_servers = “172.16.7.54“,"172.16.7.55"
+$new_dns_servers = “172.16.7.54“,"172.16.7.81"
 $old_dns_lists = "172.16.7.55","172.16.7.30"
 $ip = Get-NetIPConfiguration 
 $ifip = $ip.IPv4Address.IPAddress
