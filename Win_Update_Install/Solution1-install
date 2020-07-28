@@ -1,0 +1,1 @@
+salt -N "soho_dc"  wusa.install c:/hotfix/windows8.1-kb4541334-x64_xxxxx.msu  -v
